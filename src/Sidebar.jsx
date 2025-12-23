@@ -1,0 +1,26 @@
+import React from 'react'
+import { Bell, ClipboardPen, ClipboardPlus, Compass, House, MessageCirclePlus, Settings, User as UserIcon } from 'lucide-react';
+
+
+
+const Sidebar = () => {
+  return (
+    <div className='min-h-screen w-28 border border-gray-300 pt-10 pl-10' >
+
+        <div>
+        <UserIcon size={40}  className='text-red-400 cursor-pointer hover:text-red-700 mb-17' />
+        <House  size={40}  className='text-black-400 cursor-pointer mb-17 transition-all hover:scale-110 ' />
+        <Compass size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <ClipboardPen  size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <ClipboardPlus size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <Bell size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <MessageCirclePlus size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <Settings size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        </div>
+
+
+    </div>
+  )
+}
+
+export default Sidebar
