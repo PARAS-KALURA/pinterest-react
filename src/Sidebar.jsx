@@ -9,13 +9,13 @@ const Sidebar = () => {
 
         <div>
         <UserIcon size={40}  className='text-red-400 cursor-pointer hover:text-red-700 mb-17' />
-        <House  size={40}  className='text-black-400 cursor-pointer mb-17 transition-all hover:scale-110 ' />
-        <Compass size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
-        <ClipboardPen  size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
-        <ClipboardPlus size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
-        <Bell size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
-        <MessageCirclePlus size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
-        <Settings size={40}  className='text-black-400 cursor-pointer mb-17 hover:scale-110' />
+        <House  size={40}  className='text-black-400 cursor-pointer mb-14 transition-all hover:scale-110 ' />
+        <Compass size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
+        <ClipboardPen  size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
+        <ClipboardPlus size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
+        <Bell size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
+        <MessageCirclePlus size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
+        <Settings size={40}  className='text-black-400 cursor-pointer mb-14 hover:scale-110' />
         </div>
 
 

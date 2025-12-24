@@ -1,9 +1,9 @@
 import React from 'react'
-import Sidebar from './Sidebar'
+import Layout from './Layout'
 
 const App = () => {
   return (
-    <div><Sidebar/></div>
+    <Layout />
   )
 }
 
