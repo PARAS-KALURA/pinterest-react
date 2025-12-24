@@ -1,15 +1,16 @@
-import React from 'react'
-import Sidebar from './Sidebar'
+import Sidebar from "./Sidebar";
+import Navbar from "./components/Navbar";
 
 const Layout = () => {
   return (
-    <div className="flex">
+    <div className="flex h-screen" >
       <Sidebar />
-      <div className="flex-1 p-6">
-        
+      <div className="flex flex-col flex-1" >
+        <div><Navbar /></div>
+        <div>Main Content</div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
