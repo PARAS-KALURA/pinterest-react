@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
-body {
-  overflow: hidden;
+html, body {
+  height: auto;
+  overflow-y: auto;
 }

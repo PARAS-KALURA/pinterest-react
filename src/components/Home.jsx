@@ -50,7 +50,7 @@ const Home = () => {
     <div className="min-h-screen overflow-y-auto p-4">
       <div
         className="
-          columns-4 gap-4
+          columns-4 gap-10
           max-lg:columns-3
           max-md:columns-2
           max-sm:columns-1

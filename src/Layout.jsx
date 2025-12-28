@@ -5,7 +5,10 @@ import { Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <div className="flex h-screen">
+
+      <div className="h-screen fixed top-0" >
       <Sidebar />
+      </div>
 
       <div className="flex flex-col flex-1">
         <Navbar />
