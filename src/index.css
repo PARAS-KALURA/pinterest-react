@@ -3,4 +3,5 @@
 html, body {
   height: auto;
   overflow-y: auto;
+  scroll-behavior: smooth;
 }
