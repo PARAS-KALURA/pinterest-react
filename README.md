@@ -16,9 +16,6 @@ A Pinterest-inspired image gallery built with React and Vite, using the Unsplash
 - Unsplash API
 
 ## 📸 Preview
-Add screenshots here
+<img width="1885" height="883" alt="image" src="https://github.com/user-attachments/assets/429f99b2-7d5b-4d20-8ef5-f53294f2f703" />
 
-## 📦 How to run
-```bash
-npm install
-npm run dev
+
